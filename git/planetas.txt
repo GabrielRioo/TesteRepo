@@ -1,4 +1,6 @@
 venus
+saturno
+urano
 jupter 
 marte
 terra
