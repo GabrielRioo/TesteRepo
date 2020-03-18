@@ -4,3 +4,5 @@ urano
 jupter 
 marte
 terra
+neturno
+plutao
