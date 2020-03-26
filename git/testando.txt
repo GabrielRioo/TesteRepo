@@ -2,5 +2,10 @@ teste01
 teste02
 teste03
 Adicionando outr teste
+<<<<<<< HEAD
 ================================================
 Fazendo o exercicio 07
+=======
+
+GabrielRioo adicioando uma nova linha - Exercicio07
+>>>>>>> GabrielRioo - adicioanando linha exercicio 07
