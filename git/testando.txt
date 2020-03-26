@@ -2,3 +2,5 @@ teste01
 teste02
 teste03
 Adicionando outr teste
+================================================
+Fazendo o exercicio 07
