@@ -1,3 +1,3 @@
-# Testando
+# Curso de Git e GitHub
 
-curso de git e github
+- [x] CONCLUIDO
