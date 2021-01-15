@@ -1,0 +1,87 @@
+COMANDOS DO GIT:
+-mkdir = cria um diretorio
+-touch = cria um arquivo
+-ls = lista os arquivos dentro do diretorio
+
+-git config --global <user.name> <user.email> + <name> <email>
+
+-git config <user.name> <user.email> = mostra usuario e email
+
+-git config --global core.editor "<caminhoExecutavel>" = adiciona um editor padrao pro git
+
+-code . = abre o editor do padrao
+
+-git init = cria um novo repositorio
+
+-git add <nomeArquivo> = adiciona as modificaçoes
+  
+-git commit -m <Comentario> = Adiciona um comentario para a modificaçao feita  
+-git commit -am <comentario> = Adiciona e commita ao mesmo tempo
+
+-git checkout <numeroCommit> = volta seu diretorio para o commit digitado.
+
+-git push = Envia o arquivo/commit para o github
+
+-git pull = Puxa todas as novas modificaçoes do github.
+
+-git clone <https://github.com/GabrielRioo/TesteRepo> = Clona todos os aquivos do github para seu diretorio.
+
+-git status = mostra em qual branch estamos, os arquivos modificados, os conflitos...
+
+-git log = Mostra o numero dos commits e todos os commits ja feitos nos branchs
+
+-git log --oneline = mostra o log mais resumido
+
+-git log --oneline --graph = mostra os logs resumidos e o grafico
+
+-git log --graph = mostra o grafico
+
+-git log --oneline --graph --all = todos logs resumidos + grafico + todas branchs
+
+-cat <nomeArquivo> = mostra o que ta escrito no arquivo
+
+-gitk = interface grafica
+
+-git branch = mostra todos os branch
+
+-git branch <Nome> = cria uma nova branch (ramificaçao)
+
+-git checkout <branch> = muda para uma outra branch.
+
+-git checkout <HashCommit> = volta para um estado anterior do projeto(ja commitado)
+
+-git checkout master = retorna ao estado atual do projeto
+
+-git push -u origin <nomeBranch> = quando nao tem a branch no github
+
+-git merge <branch> = Junta as duas branch, na branch atual que estiver usando
+
+-git rebase <branch> = semelhante ao merge, porem diferente na hora de aplicar os commits.
+
+-git rebase --continue = apos solucionar os conflitos 
+
+-git checkout -b <nomeBranch> = cria e ja inicia na nova branch
+
+-git fetch = baixa as atualizaçoes do remoto porem nao aplica elas no repositorio, e resolver problemas do conflito.
+
+-git tag <nomeDaTag> = definir versoes estaves do projeto. Semelhante a branch porem nao recebe commits
+TAG = RELEASE (github)
+-git tag = mostra em qual versao esta
+
+-git tag -a <name> -m <mensagem>
+
+-git tag -d <tagusada> = deletar uma tag antes do push
+
+-git push origin <tag>s
+
+-git reset HEAD = remove um arquivo que foi adicionado (caso nao queira commitar)
+
+-git checkout <file> = volta para o estado anterior (caso nao queira adicionar)
+
+-git reset --hard <commit> = volta para o commit digitado e apaga os acima dele(mais recentes)
+
+-git remote = verifica se existe um repositorio remoto.
+
+-git remote add origin <https> = linka o repositorio local com github
+
+-git push -u origin master = da um push do repositorio para o github
